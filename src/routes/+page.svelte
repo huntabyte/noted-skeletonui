@@ -12,7 +12,7 @@
 					noteStore.update((notes) => notes.filter((n) => n.id !== noteId));
 					toastStore.trigger({
 						message: 'Note deleted successfully',
-						background: 'variant-ghost-success'
+						background: 'variant-filled-success'
 					});
 					return;
 				}
